@@ -1,0 +1,277 @@
+* {
+    padding:0 ;
+    margin: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+body {
+    background: #FFFFFF;
+}
+/*HEADER*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-top {
+    display: flex;
+    padding: 20px 0;
+}
+.header img {
+    font-weight: 1000;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+
+    color: #85171A;
+}
+.header-top h6  {
+    padding: 0 5px;
+}
+.header-text select {
+  font-size: 20px;
+    border:none;
+    outline: none;
+    margin-top: -14%;
+}
+.header-sign {
+    font-size: 20px;
+    border:none;
+    outline: none;
+    margin-top: -14%;
+    margin-left: 25px;
+}
+.header-text {
+    display: flex;
+    margin-left: 15%;
+    padding: 0 30px;
+    margin-top: 30px;
+
+}
+.header-text h2 {
+   padding: 0 50px;
+    margin-top:-80px;
+}
+.header-text a {
+    display: flex;
+    margin-top: -70px;
+}.fa-envelope {
+    padding: 0 5px;
+ }
+ .header-line {
+     width: 1350px;
+    border:1px solid black;
+ }
+ .header p {
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 12px;
+     text-transform: uppercase;
+     margin-top: 20px;
+     color: #E4E4E4;
+
+ }
+ .making-top {
+     display: flex;
+     animation: top 2s alternate linear;
+ }
+@keyframes top {
+    0% {
+        transform: translateX(-1000px);
+    }
+}
+
+.making-text {
+     margin-top: 130px;
+ }
+
+ .making-text h1 {
+     font-weight: 700;
+     font-size: 57px;
+     line-height: 133.69%;
+
+
+
+     color: #1F2E35;
+
+ }
+ .making-text h3 {
+
+     font-size: 50px;
+
+     color: #ec1034;
+ }
+ .making-text h6 {
+     width: 520px;
+     height: 58px;
+     font-weight: 400;
+     font-size: 22px;
+     line-height: 29px;
+
+     color: #30444E;
+     padding: 30px 0;
+ }
+ .btn-red {
+     position: relative;
+     border: none;
+     color: white;
+     background: red;
+     padding: 20px 40px;
+     border-radius: 10px;
+     font-size:  20px;
+     transition: .7s;
+     cursor: pointer;
+ }
+ .btn-red:hover {
+     position: absolute;
+     background: rgba(253, 253, 84, 0.96);
+     transition: .7s;
+     color: #f61e1e;
+ }
+.making-fon img {
+    margin-top: 150px;
+    margin-left: 30%;
+    background: #FAFAFA;
+    animation: fon 2s alternate linear;
+}
+@keyframes fon {
+   0% {
+       transform: rotate(360deg);
+   }
+}
+/*HEADER*/
+
+
+/*welcom*/
+#welcome {
+    background: #F7F7F7;
+}
+.welcome {
+    display:flex ;
+    padding: 50px 0;
+
+}
+.welcom-text {
+    padding: 80px 0;
+    margin-left: 30%;
+}
+.text-one {
+    color: #30444E;
+    font-size: 18px;
+}
+.text-two {
+    color: #30444E;
+    font-size: 18px;
+    padding-top: 20px;
+}
+/*welcom*/
+
+/*PRODUCT*/
+#product {
+    background: #E5E5E5;
+}
+.product {
+    display: flex;
+    justify-content: center;
+
+    font-size: 25px;
+
+
+}
+.product-top {
+    display: flex;
+}
+.product-one {
+     padding-top: 100px;
+}
+.product-one h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+}
+.product-one h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #30444E;
+   padding: 25px 0;
+}
+.btn-knop {
+    border: none;
+    color: white;
+    background: red;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size:  17px;
+
+
+}
+.product-two {
+    padding-top: 100px;
+    margin-left: 180px;
+}
+.product-two h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+}
+.product-two h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #30444E;
+    padding: 25px 0;
+}
+
+.product-sry {
+    padding-top: 100px;
+    margin-left: 150px;
+
+}
+.product-sry h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #EE4248;
+}
+.product-sry h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #30444E;
+    padding: 25px 0;
+}
+.descrip-top {
+    display: flex;
+}
+.descrip {
+    padding-top: 10%;
+}
+.descrip p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #263238;
+    padding: 10px 0;
+}
+.descrip-two  {
+    padding-top: 135px;
+    margin-left: 140px;
+}
+.descrip-two p {
+    padding: 22px 0;
+}
+.descrip-sry {
+    width:1200px;
+    border: 25px solid red;
+    background: none;
+    outline: none;
+
+}
+.descrip-sry p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: red;
+}
+
+/*PRODUCT*/
+
